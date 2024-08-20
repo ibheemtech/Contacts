@@ -30,15 +30,15 @@ try {
    
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'ibheemtech@gmail.com';                     //SMTP username
-    $mail->Password   = 'gebpxfgrndkwqmic';                               //SMTP password
+    $mail->Username   = 'your email';                     //SMTP username
+    $mail->Password   = 'your password';                               //SMTP password
    
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //ENCRYPTION_SMTPS Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('ibheemtech@gmail.com', 'ibheemtech');
-    $mail->addAddress('ibheemtech@gmail.com', 'ibheemtech');     //Add a recipient
+    $mail->setFrom('where you are sending it from', 'your name');
+    $mail->addAddress('you could like to add address of your email', 'your name');     //Add a recipient
    
 
    
